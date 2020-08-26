@@ -1,0 +1,7 @@
+
+docker build -t lmt27/fullcycle .
+
+docker run -p 8080:8080 lmt27/fullcycle:latest
+
+docker push lmt27/fullcycle:latest
+
